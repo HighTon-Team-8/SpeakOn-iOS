@@ -29,7 +29,7 @@ struct MainView: View {
 
             VStack(spacing: 0) {
                 HStack {
-                    Text("홍길동님의 발표 고민,")
+                    Text("김준표님의 발표 고민,")
                         .font(.pretendard(.regular, size: 16))
                     Spacer()
                 }
