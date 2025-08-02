@@ -11,7 +11,7 @@ import SwiftUI
 struct High_iOSApp: App {
     var body: some Scene {
         WindowGroup {
-            FeedbackView()
+            Voice_feedback()
         }
     }
 }
