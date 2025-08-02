@@ -10,9 +10,22 @@
 		EAE857762E3DEB7B00290A9D /* High-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "High-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EAE857B22E3E27BC00290A9D /* Exceptions for "High-iOS" folder in "High-iOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EAE857752E3DEB7B00290A9D /* High-iOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		EAE857782E3DEB7B00290A9D /* High-iOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EAE857B22E3E27BC00290A9D /* Exceptions for "High-iOS" folder in "High-iOS" target */,
+			);
 			path = "High-iOS";
 			sourceTree = "<group>";
 		};
@@ -269,6 +282,7 @@
 				DEVELOPMENT_TEAM = 3NVCLTSP9V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "High-iOS/Info.plist";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "이 앱은 음성 녹음을 위해 마이크 접근이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -299,6 +313,7 @@
 				DEVELOPMENT_TEAM = 3NVCLTSP9V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "High-iOS/Info.plist";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "이 앱은 음성 녹음을 위해 마이크 접근이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
