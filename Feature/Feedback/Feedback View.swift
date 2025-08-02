@@ -13,7 +13,7 @@ struct FeedbackView: View {
     var body: some View {
         NavigationStack {
             VStack(spacing: 0) {
-                // 상단 제목
+            
                 HStack {
                     Text("피드백내역")
                         .padding(.leading, 16)
@@ -21,7 +21,7 @@ struct FeedbackView: View {
                     Spacer()
                 }
 
-                // 탭 (피드백 내역 / 대본 작성)
+               
                 HStack {
                     Button(action: {
                         withAnimation {
@@ -34,7 +34,7 @@ struct FeedbackView: View {
                             .padding(.leading, 71)
                             
                     }
-                    //.frame(maxWidth: .infinity)
+                  
                     
                     Spacer()
                     Button(action: {
@@ -47,12 +47,12 @@ struct FeedbackView: View {
                             .foregroundColor(selectedTab == 1 ? .black : .gray)
                             .padding(.trailing, 79)
                     }
-                    //.frame(maxWidth: .infinity)
+             
                 }
-                //.padding(.horizontal, 55)
+            
                 .padding(.top, 39)
 
-                // 파란색 밑줄 막대기
+             
                 ZStack(alignment: selectedTab == 0 ? .leading : .trailing) {
                     Rectangle()
                         .foregroundColor(.gray.opacity(0.3))
