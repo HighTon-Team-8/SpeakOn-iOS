@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EAE857D42E3E8F5600290A9D /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = EAE857D32E3E8F5600290A9D /* Moya */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EAE857762E3DEB7B00290A9D /* High-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "High-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -46,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE857D42E3E8F5600290A9D /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +97,7 @@
 			);
 			name = "High-iOS";
 			packageProductDependencies = (
+				EAE857D32E3E8F5600290A9D /* Moya */,
 			);
 			productName = "High-iOS";
 			productReference = EAE857762E3DEB7B00290A9D /* High-iOS.app */;
@@ -121,6 +127,9 @@
 			);
 			mainGroup = EAE8576D2E3DEB7B00290A9D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EAE857D22E3E8F5600290A9D /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EAE857772E3DEB7B00290A9D /* Products */;
 			projectDirPath = "";
@@ -355,6 +364,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EAE857D22E3E8F5600290A9D /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EAE857D32E3E8F5600290A9D /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE857D22E3E8F5600290A9D /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EAE8576E2E3DEB7B00290A9D /* Project object */;
 }
