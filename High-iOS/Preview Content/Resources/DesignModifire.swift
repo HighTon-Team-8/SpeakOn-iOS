@@ -26,21 +26,13 @@ extension Font {
 }
 
 enum ColorStyle: String {
-    case gray50 = "Gray50"
-    case gray100 = "Gray100"
-    case gray200 = "Gray200"
-    case gray300 = "Gray300"
-    case gray400 = "Gray400"
-    case gray500 = "Gray500"
-    case gray600 = "Gray600"
-    case gray700 = "Gray700"
-    case gray800 = "Gray800"
-    case gray900 = "Gray900"
-    case main100 = "main100"
-    case main200 = "main200"
-    case main300 = "main300"
-    case main400 = "main400"
     case error = "Error"
+    // 여기부터가 찐인뎅 어쩔거야
+    case main = "main"
+    case gray50 = "gray50"
+    case gray100 = "gray100"
+    case gray200 = "gray200"
+    case gray300 = "gray300"
 }
 
 extension Color {
@@ -66,7 +58,7 @@ struct DesignModifireView: View {
     var body: some View {
         Text("Hello, Pretendard!")
             .font(.pretendard(.bold, size: 20))
-            .foregroundStyle(.red)
+            .color(.main)
             .font(.pretendard(.medium, size: 16))
     }
 }
