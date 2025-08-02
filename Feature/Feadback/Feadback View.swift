@@ -15,7 +15,7 @@ struct FeadbackView: View {
             VStack(spacing: 0) {
                 // 상단 제목
                 HStack {
-                    dText("피드백내역")
+                    Text("피드백내역")
                         .padding(.leading, 16)
                         .font(.pretendard(.bold, size: 16))
                     Spacer()
